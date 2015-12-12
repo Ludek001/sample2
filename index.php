@@ -22,7 +22,7 @@ $form->addGroup('Osobni  data')
 $form->addText('name', 'Your name:')
 	->setRequired('Enter your name');
 
-$form->addText('age', 'Your age:')
+$form->addText('age', 'Vek:')
 	->setRequired('Enter your age')
 	->addRule($form::INTEGER, 'Age must be numeric value')
 	->addRule($form::RANGE, 'Age must be in range from %d to %d', array(10, 100));
