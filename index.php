@@ -45,7 +45,7 @@ $form->addText('email', 'Email:')
 
 
 // group Shipping address
-$form->addGroup('Shipping address')
+$form->addGroup('Adresy')
 	->setOption('embedNext', TRUE);
 
 $form->addCheckbox('send', 'Ship to address')
